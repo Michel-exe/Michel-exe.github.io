@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="loader.css?1234567890">
+   <link rel="stylesheet" href="style.css?1234567890">
+   <title>Lic. Javier</title>
+</head>
+
+<body>
+   <header class="">
+      <div>
+         <a href="#">
+            <h1>
+               Lic. Javier
+            </h1>
+         </a>
+         <nav>
+            <a href="#objetivo">Objetivo</a>
+            <a href="#perfil">Perfil Profesional</a>
+            <a href="#cursos">Cursos</a>
+            <a href="#diplimas">Diplomados</a>
+            <a href="#">Contacto</a>
+         </nav>
+         <span class="menu act">
+            <label class="hamburger">
+               <svg viewBox="0 0 32 32">
+                  <path class="line line-top-bottom"
+                     d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+                  </path>
+                  <path class="line" d="M7 16 27 16"></path>
+               </svg>
+            </label>
+         </span>
+      </div>
+   </header>
+   <script>
+      const header = document.querySelector("header");
+      header.querySelector(".menu").addEventListener("click", () => header.classList.toggle("act"))
+   </script>
+   <div class="form">
+      <h2>Buscare la solucion a tu problema</h2>
+      <form action="">
+         <div class="input">
+            <input type="text" id="input1" data-type="firstInput" required="" autocomplete="off">
+            <label for="input1" class="label">Problematica</label>
+            <span>
+               <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round"
+                  stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+               </svg>
+            </span>
+            <div class="underline"></div>
+         </div>
+         <div class="input">
+            <input type="text" id="input2" data-type="secondInput" required="" autocomplete="off">
+            <label for="input2" class="label">Especialidad</label>
+            <span>
+               <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round"
+                  stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+               </svg>
+            </span>
+            <div class="underline"></div>
+         </div>
+         <div class="input">
+            <input type="text" id="input3" data-type="estados" required="" autocomplete="off">
+            <label for="input3" class="label">Estado</label>
+            <span>
+               <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round"
+                  stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+               </svg>
+            </span>
+            <div class="underline"></div>
+         </div>
+         <div class="submit">
+            <button type="submit">Pedir Informacion</button>
+         </div>
+         <datalist id="list"></datalist>
+      </form>
+   </div>
+   <div class="obj sombra" id="objetivo">
+      <h2>Objetivo</h2>
+      <p>Especializarme como Licenciado en Derecho en Materia Penal, Civil y Laboral para satisfacer y exceder las
+         expectativas de mis clientes llevando al éxito sus asuntos y de las instituciones educativas a las que presto
+         mis servicios como docente.</p>
+   </div>
+   <div class="perfil sombra" id="perfil">
+      <section class="perfilImg animacion left" data-type="left">
+         <picture>
+            <img src="./media/unam.png" alt="">
+         </picture>
+      </section>
+      <section>
+         <h2>Perfil profesional</h2>
+         <p>
+            <strong>Licenciado en Derecho</strong>
+            egresado de la Facultad de Derecho de la Universidad Nacional Autónoma de México.
+            <strong>U N A M</strong>
+         </p>
+         <ul>
+            <li>MAESTRIA EN DERECHO CIVIL Y JUICIO ORAL CIVIL Y FAMILIAR</li>
+            <li>TITULO Y CEDULA</li>
+            <li>UNIVERSIDAD VALLE DORADO</li>
+         </ul>
+         <div class="perfilContact">
+            <a href="#">
+               <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em"
+                  width="1em" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                     d="M256 92.6c-69.6-.1-139.1 11.6-208.56 35.4 0 0-9.87 22.6-17.98 41.3a46.9 46.9 0 0 0-3.49 12.2c48.55-18.4 97.13-31 145.63-38 4.5-8.8 13.7-14.6 23.9-14.6h17.3c7.9 0 15.1 3.4 20.1 8.9 15.4-.6 30.8-.7 46.4-.1 4.9-5.5 12.1-8.8 19.8-8.8h17.3c10.1 0 19.1 5.6 23.7 14.1 48.7 6.6 97.2 19.4 145.9 38.3-.7-4-1.8-8.2-3.5-12-8.1-18.7-18-41.3-18-41.3-69.5-23.4-139-35.33-208.5-35.4zm-60.5 53.6c-4.7 0-8.8 3.4-9.6 8.1l-6.7 40.4c-12.1 2.2-23.9 5-35.3 8.4-9.8 3-17.6 10.4-21.2 19.9-13.8 37-48.72 130.6-48.72 130.6H438s-34.8-93.5-48.7-130.6c-3.5-9.5-11.4-17-21.2-19.9-11.4-3.4-23.2-6.2-35.3-8.4l-6.8-40.4c-.8-4.7-4.8-8.1-9.6-8.1h-17.3c-4.6 0-8.7 3.2-9.5 7.8l-2.2 10.6h-62.9l-2.2-10.6c-.8-4.6-4.8-7.8-9.5-7.8zm163.8 17.3-2.7 18.6c5.6 1.4 11.1 2.8 16.4 4.5 14 6.2 25.7 15.7 31.1 27.2l64.8 15.5c6.4-9.8 13.6-18.7 16.3-29.8-42-16.6-83.9-28.7-125.9-36zm-206.5.5c-42 7.5-84.01 19.4-126.02 35.6 3.05 11.7 9.6 19.6 16.31 29.7l64.81-15.5c5.9-13 17.2-23 31-27.2 5.5-1.6 11-3.1 16.5-4.5zM256 197.3c44.7 0 81 30.9 81 69s-36.3 68.9-81 68.9-81.1-30.8-81.1-68.9c0-38.1 36.4-69 81.1-69zm0 17.6c-30.1 0-54.5 20.8-54.5 46.4 0 25.6 24.4 46.4 54.5 46.4s54.4-20.8 54.4-46.4c0-25.6-24.3-46.4-54.4-46.4zM73.97 376.5l21.76 42.9H416.2l21.7-42.9z">
+                  </path>
+               </svg>
+            </a>
+            <a href="#">
+               <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em"
+                  width="1em" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                     d="M721.7 184.9L610.9 295.8l120.8 120.7-8 21.6A481.29 481.29 0 0 1 438 723.9l-21.6 8-.9-.9-119.8-120-110.8 110.9 104.5 104.5c10.8 10.7 26 15.7 40.8 13.2 117.9-19.5 235.4-82.9 330.9-178.4s158.9-213.1 178.4-331c2.5-14.8-2.5-30-13.3-40.8L721.7 184.9z">
+                  </path>
+                  <path
+                     d="M877.1 238.7L770.6 132.3c-13-13-30.4-20.3-48.8-20.3s-35.8 7.2-48.8 20.3L558.3 246.8c-13 13-20.3 30.5-20.3 48.9 0 18.5 7.2 35.8 20.3 48.9l89.6 89.7a405.46 405.46 0 0 1-86.4 127.3c-36.7 36.9-79.6 66-127.2 86.6l-89.6-89.7c-13-13-30.4-20.3-48.8-20.3a68.2 68.2 0 0 0-48.8 20.3L132.3 673c-13 13-20.3 30.5-20.3 48.9 0 18.5 7.2 35.8 20.3 48.9l106.4 106.4c22.2 22.2 52.8 34.9 84.2 34.9 6.5 0 12.8-.5 19.2-1.6 132.4-21.8 263.8-92.3 369.9-198.3C818 606 888.4 474.6 910.4 342.1c6.3-37.6-6.3-76.3-33.3-103.4zm-37.6 91.5c-19.5 117.9-82.9 235.5-178.4 331s-213 158.9-330.9 178.4c-14.8 2.5-30-2.5-40.8-13.2L184.9 721.9 295.7 611l119.8 120 .9.9 21.6-8a481.29 481.29 0 0 0 285.7-285.8l8-21.6-120.8-120.7 110.8-110.9 104.5 104.5c10.8 10.8 15.8 26 13.3 40.8z">
+                  </path>
+               </svg>
+            </a>
+            <a href="#">
+               <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" aria-hidden="true"
+                  height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+               </svg>
+            </a>
+         </div>
+      </section>
+   </div>
+   <div class="cursos" id="cursos">
+      <h2>Cursos</h2>
+      <section></section>
+   </div>
+   <div class="diplimas" id="diplimas">
+      <h2>Diplomados</h2>
+      <section></section>
+   </div>
+   <div class="historial">
+      <h2>Historial Profesional</h2>
+      <section>
+         <div class="animacion left">
+            <div>
+               <p>Me desarrollo profesionalmente como  Abogado postulante, titular del despacho jurídico “Consultoria Integral Juridica” conociendo de Juicios Civiles, penales  y Familiares, ofreciendo asistencia jurídica a mis clientes en la integración de carpetas de Investigación ante el Ministerio Público del fuero común,  experiencia en desahogo de audiencias de Mediación  y Conciliación, Asesor Jurídico y Defensa en Juicios Penales en el sistema penal Acusatorio y oral.</p>
+            </div>
+            <span>
+               <strong>2010 a 2023</strong> <br>
+               <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path fill-rule="evenodd" d="M14 6V4h-4v2h4zM4 8v11h16V8H4zm16-2c1.11 0 2 .89 2 2v11c0 1.11-.89 2-2 2H4c-1.11 0-2-.89-2-2l.01-11c0-1.11.88-2 1.99-2h4V4c0-1.11.89-2 2-2h4c1.11 0 2 .89 2 2v2h4z"></path></svg>
+            </span>
+         </div>
+         <div class="animacion right">
+            <span>
+               <strong>2014 a 2021</strong>
+               <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M2 20h20v2H2v-2zm2-8h2v7H4v-7zm5 0h2v7H9v-7zm4 0h2v7h-2v-7zm5 0h2v7h-2v-7zM2 7l10-5 10 5v4H2V7zm2 1.236V9h16v-.764l-8-4-8 4zM12 8a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"></path></g></svg>
+            </span>
+            <div>
+               <p>Catedrático  en la Facultad Libre de Derecho, impartiendo las asignaturas de, Metodología de la investigacion científica, Lógica y argumentación Juridica, Seminario de  Titulacion, Derecho Penal parte especial, Derecho Electoral, Derecho Constitucional, Derecho Mercantil, Política y Estado, Delitos Especiales; Prevención del Delito, Teoría de la Argumentación Jurídica, Juicios Orales en Materia Penal, Teoría y Práctica de la Prueba, Técnicas Cualitativas y Cuantitativas, transmitiendo mis conocimientos con responsabilidad y ética a mis educandos.</p>
+            </div>
+         </div>
+         <div class="animacion left">
+            <div>
+               <p>Me desarrolle como auxiliar jurídico dentro área Jurídica del Municipio de Huamantla, Tlaxcala, siendo  auxiliar del Síndico, Municipal, apoyándolo en  los asuntos propios del municipio.</p>
+            </div>
+            <span>
+               <strong>2010 a 2011</strong>
+               <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M6 22h15v-2H6.012C5.55 19.988 5 19.805 5 19s.55-.988 1.012-1H21V4c0-1.103-.897-2-2-2H6c-1.206 0-3 .799-3 3v14c0 2.201 1.794 3 3 3zM5 8V5c0-.805.55-.988 1-1h13v12H5V8z"></path><path d="M8 6h9v2H8z"></path></svg>
+            </span>
+         </div>
+         <!-- <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0"></path><path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0"></path><path d="M3 6l0 13"></path><path d="M12 6l0 13"></path><path d="M21 6l0 13"></path></svg> -->
+      </section>
+   </div>
+   <div class="estudios">
+      <h2>Estudios</h2>
+      <section>
+         <div class="nubes animacion le left">
+            <picture class="left">
+               <img src="./media/nube2.png" alt="">
+            </picture>
+         </div>
+         <div class="nubes animacion ri right">
+            <picture class="right">
+               <img src="./media/nube2.png" alt="">
+            </picture>
+         </div>
+         <div class="sombra r animacion right" 
+               style="--bg:#5c5cffee;--m:00%;--mr:0%" >
+            <strong>
+               Maestria en derecho civil y juicio oral civil.
+            </strong>
+            <small>2021 - 2022</small>
+            <p>Universidad Valle Dorado, Titulo y cedula.</p>
+         </div>
+         <div class="sombra r animacion right" 
+               style="--bg:#5c5cffbb;--m:10%;--mr:05%">
+            <strong>Licenciatura en Derecho  en la Universidad Autónoma de México UNAM</strong>
+            <small>2005 - 2010</small>
+            <p>Titulado con mención Honorífica y con número de cédula profesional</p>
+         </div>
+         <div class="sombra l animacion left" 
+               style="--bg:#5c5cff88;--m:20%;--mr:10%" >
+            <strong>Técnico Mecánico Electricista, Institución educativa CONALEP</strong>
+            <small>1991 - 1994</small>
+            <p>Amaxac de Guerreo Tlaxcala. Certificado  y Título y Cédula</p>
+         </div>
+         <div class="sombra l animacion left" 
+               style="--bg:#5c5cff55;--m:10%;--mr:05%" >
+            <strong>Secundaria Técnica Número 14</strong>
+            <small>1988 - 1991</small>
+            <p>Tetla Tlaxcala</p>
+         </div>
+         <div class="sombra l animacion left" 
+               style="--bg:#5c5cff22;--m:00%;--mr:00%" >
+            <strong>Primaria Escuela Federal</strong>
+            <small>1982 - 1988 </small>
+            <p>Francisco I. Madero, Santa María Texcalac, Tlaxcala</p>
+         </div>
+      </section>
+   </div>
+   <script src="opciones.js"></script>
+   <script src="comp.js"></script>
+   <script src="code.js"></script>
+   <script src="scroll.js"></script>
+</body>
+
+</html>
