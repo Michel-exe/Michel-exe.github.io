@@ -236,7 +236,7 @@
       "category": "Avistamientos",
       "data": [
          {
-            "id": "estab3",
+            "id": "estab5",
             "name": "Avistamiento 1",
             "descripcion": "descripcion corta",
             "url": "https://www.google.com/maps/d/u/0/edit?mid=1ZHaEpEjoJFMFWQZE167uD0x-aj1Zkl4&usp=sharing",
@@ -321,7 +321,7 @@
             ]
          },
          {
-            "id": "estab3",
+            "id": "estab4",
             "name": "Avistamiento 2",
             "descripcion": "descripcion corta",
             "url": "https://www.google.com/maps/d/u/0/edit?mid=1ZHaEpEjoJFMFWQZE167uD0x-aj1Zkl4&usp=sharing",
