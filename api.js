@@ -232,7 +232,7 @@
       ]
    },
    {
-      "idCat": "idCat2",
+      "idCat": "idCat3",
       "category": "Avistamientos",
       "data": [
          {
