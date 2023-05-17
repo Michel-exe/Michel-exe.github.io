@@ -61,6 +61,24 @@
                         "idima": "img4",
                         "img": "https://cdn.pixabay.com/photo/2021/03/16/10/04/street-6099209_1280.jpg"
                      }
+                  ],
+                  "contact": [
+                     {
+                        "type": "telefono",
+                        "contact": "+527491086498"
+                     },
+                     {
+                        "type": "whatsapp",
+                        "contact": "+527491086498"
+                     },
+                     {
+                        "type": "facebook",
+                        "contact": "www.google.com"
+                     },
+                     {
+                        "type": "mensaje",
+                        "contact": "+527491086498"
+                     }
                   ]
                }
             ]
@@ -119,6 +137,24 @@
                         "idima": "img7",
                         "img": "https://resizer.otstatic.com/v2/photos/wide-huge/2/47967436.jpg"
                      }
+                  ],
+                  "contact": [
+                     {
+                        "type": "telefono",
+                        "contact": "+527491086498"
+                     },
+                     {
+                        "type": "whatsapp",
+                        "contact": "+527491086498"
+                     },
+                     {
+                        "type": "facebook",
+                        "contact": "www.google.com"
+                     },
+                     {
+                        "type": "mensaje",
+                        "contact": "+527491086498"
+                     }
                   ]
                }
             ]
@@ -170,6 +206,24 @@
                      {
                         "idima": "img5",
                         "img": "https://cdn.pixabay.com/photo/2016/11/18/15/53/breakfast-1835478_1280.jpg"
+                     }
+                  ],
+                  "contact": [
+                     {
+                        "type": "telefono",
+                        "contact": "+527491086498"
+                     },
+                     {
+                        "type": "whatsapp",
+                        "contact": "+527491086498"
+                     },
+                     {
+                        "type": "facebook",
+                        "contact": "www.google.com"
+                     },
+                     {
+                        "type": "mensaje",
+                        "contact": "+527491086498"
                      }
                   ]
                }
@@ -244,6 +298,24 @@
                         "idima": "img7",
                         "img": "https://resizer.otstatic.com/v2/photos/wide-huge/2/47967436.jpg"
                      }
+                  ],
+                  "contact": [
+                     {
+                        "type": "telefono",
+                        "contact": "+527491086498"
+                     },
+                     {
+                        "type": "whatsapp",
+                        "contact": "+527491086498"
+                     },
+                     {
+                        "type": "facebook",
+                        "contact": "www.google.com"
+                     },
+                     {
+                        "type": "mensaje",
+                        "contact": "+527491086498"
+                     }
                   ]
                }
             ]
@@ -310,6 +382,24 @@
                      {
                         "idima": "img7",
                         "img": "https://resizer.otstatic.com/v2/photos/wide-huge/2/47967436.jpg"
+                     }
+                  ],
+                  "contact": [
+                     {
+                        "type": "telefono",
+                        "contact": "+527491086498"
+                     },
+                     {
+                        "type": "whatsapp",
+                        "contact": "+527491086498"
+                     },
+                     {
+                        "type": "facebook",
+                        "contact": "www.google.com"
+                     },
+                     {
+                        "type": "mensaje",
+                        "contact": "+527491086498"
                      }
                   ]
                }
