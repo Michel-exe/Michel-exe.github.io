@@ -1,133 +1,320 @@
-let establecimientos = [
+[
    {
-      idCat: 'idCat1',
-      category: 'Hoteleria',
-      data: [
+      "idCat": "idCat1",
+      "category": "Hoteleria",
+      "data": [
          {
-            id: "estab1",
-            name: "mapa de nanacamilpa",
-            refe: "Nanacamilpa Tlaxcala",
-            url: "https://www.google.com/maps/d/edit?mid=10p5gr5ryGSJ1XzxRrjJWSM32x_V36rI&usp=sharing",
-            loc: {
-               latitude: 19.493037,
-               longitude: -98.535733
+            "id": "estab1",
+            "name": "mapa de nanacamilpa",
+            "descripcion": "descripcion corta",
+            "url": "https://www.google.com/maps/d/edit?mid=10p5gr5ryGSJ1XzxRrjJWSM32x_V36rI&usp=sharing",
+            "loc": {
+               "latitude": 19.493037,
+               "longitude": -98.535733
             },
+            "info": [
+               {
+                  "idEstab": "estab1",
+                  "name": "Hotel",
+                  "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed ex tincidunt, condimentum .",
+                  "habitaciones": [
+                     {
+                        "ide": "hotel1",
+                        "tipo": "tipo_Habitacion",
+                        "costo": "100 MXN"
+                     },
+                     {
+                        "ide": "hotel2",
+                        "tipo": "tipo_Habitacion",
+                        "costo": "100 MXN"
+                     },
+                     {
+                        "ide": "hotel3",
+                        "tipo": "tipo_Habitacion",
+                        "costo": "100 MXN"
+                     },
+                     {
+                        "ide": "hotel4",
+                        "tipo": "tipo_Habitacion",
+                        "costo": "100 MXN"
+                     },
+                     {
+                        "ide": "hotel5",
+                        "tipo": "tipo_Habitacion",
+                        "costo": "100 MXN"
+                     }
+                  ],
+                  "imagenes": [
+                     {
+                        "idima": "img1",
+                        "img": "https://resizer.otstatic.com/v2/photos/wide-huge/2/47967436.jpg"
+                     },
+                     {
+                        "idima": "img2",
+                        "img": "https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784_640.jpg"
+                     },
+                     {
+                        "idima": "img3",
+                        "img": "https://cdn.pixabay.com/photo/2015/11/19/10/38/food-1050813_1280.jpg"
+                     },
+                     {
+                        "idima": "img4",
+                        "img": "https://cdn.pixabay.com/photo/2021/03/16/10/04/street-6099209_1280.jpg"
+                     }
+                  ]
+               }
+            ]
          }
       ]
-   }, {
-      idCat: 'idCat9',
-      category: 'Comida Mexicana',
-      data: [
+   },
+   {
+      "idCat": "idCat2",
+      "category": "Restaurantes",
+      "data": [
          {
-            id: "estab2",
-            name: "Michel",
-            refe: "Nanacamilpa Tlaxcala",
-            url: "https://www.google.com/maps/d/u/0/edit?mid=1ZHaEpEjoJFMFWQZE167uD0x-aj1Zkl4&usp=sharing",
-            loc: {
-               latitude: 19.493037,
-               longitude: -98.535733
+            "id": "estab2",
+            "name": "Restaurante 1",
+            "descripcion": "descripcion corta",
+            "url": "https://www.google.com/maps/d/u/0/edit?mid=1ZHaEpEjoJFMFWQZE167uD0x-aj1Zkl4&usp=sharing",
+            "loc": {
+               "latitude": 19.493037,
+               "longitude": -98.535733
             },
+            "info": [
+               {
+                  "idEstab": "estab1",
+                  "name": "Restaurante 1",
+                  "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed ex tincidunt, condimentum .",
+                  "comida": [
+                     {
+                        "ide": "rest1",
+                        "platillo": "Chinocuiles",
+                        "costo": "100 MXN"
+                     },
+                     {
+                        "ide": "rest2",
+                        "platillo": "Chinocuiles",
+                        "costo": "100 MXN"
+                     },
+                     {
+                        "ide": "rest5",
+                        "platillo": "Chinocuiles",
+                        "costo": "100 MXN"
+                     }
+                  ],
+                  "imagenes": [
+                     {
+                        "idima": "img4",
+                        "img": "https://cdn.pixabay.com/photo/2021/03/16/10/04/street-6099209_1280.jpg"
+                     },
+                     {
+                        "idima": "img5",
+                        "img": "https://cdn.pixabay.com/photo/2016/11/18/15/53/breakfast-1835478_1280.jpg"
+                     },
+                     {
+                        "idima": "img6",
+                        "img": "https://cdn.pixabay.com/photo/2016/03/05/19/02/salmon-1238248_1280.jpg"
+                     },
+                     {
+                        "idima": "img7",
+                        "img": "https://resizer.otstatic.com/v2/photos/wide-huge/2/47967436.jpg"
+                     }
+                  ]
+               }
+            ]
          },
          {
-            id: "estab3",
-            name: "casa de historia",
-            refe: "Lorem impus dolot itsum mit Lorem impus dolot itsum mit Lorem impus dolot itsum mit Lorem impus dolot itsum mit",
-            url: "https://www.google.com/maps/d/edit?mid=1c1lL348BzioD_3Vw_n2BxewLFVGh4x0&usp=sharing",
-            loc: {
-               latitude: 19.487706104427147,
-               longitude: -98.53741132866453
+            "id": "estab3",
+            "name": "Restaurante 2",
+            "descripcion": "descripcion corta",
+            "url": "https://www.google.com/maps/d/edit?mid=1c1lL348BzioD_3Vw_n2BxewLFVGh4x0&usp=sharing",
+            "loc": {
+               "latitude": 19.487706104427147,
+               "longitude": -98.53741132866453
             },
-         }]
-   }, {
-      idCat: 'idCat2',
-      category: 'Restaurant',
-      data: [{
-         id: "estab4",
-         name: "san cayetano ",
-         refe: "Lorem impus dolot itsum mit",
-         url: "https://www.google.com/maps/d/edit?mid=1p9a6HgT0wbeOgWNm3RnFmBzgFrlTi-k&usp=sharing",
-         loc: {
-            latitude: 19.50904,
-            longitude: -98.53636
-         },
-      },
-      {
-         id: "estab5",
-         name: "Vikingos",
-         refe: "Lorem impus dolot itsum mit",
-         url: "https://www.google.com/maps/d/edit?mid=1DgX54cXRhvAu0HUAZNhHRqn7yd81OuU&usp=sharing",
-         loc: {
-            latitude: 19.49277,
-            longitude: -98.53524
-         },
-      },
-      {
-         id: "estab6",
-         name: "Hotele Milenio",
-         refe: "Lorem impus dolot itsum mit",
-         url: "https://www.google.com/maps/d/edit?mid=1eoFvGy2vKli9VBCkfm-c_AfmOlGObGo&usp=sharing",
-         loc: {
-            latitude: 19.49176,
-            longitude: -98.54279
-         },
-      }]
-   }, {
-      idCat: 'idCat3',
-      category: 'Bares',
-      can: {},
-      data: [
-         {
-            id: 5,
-            name: "El Mareo",
-            refe: "Lorem impus dolot itsum mit",
-            url: "https://www.google.com/maps/d/edit?mid=18Lrw-mfIzPg0n_lZn8APOHkWJT0wsdw&usp=sharing",
-            loc: {
-               latitude: 19.49597,
-               longitude: -98.53468
-            },
-         },
-      ]
-   }, {
-      idCat: 'idCat4',
-      category: 'Demas',
-      can: {},
-      data: [
-         {
-            id: 8,
-            name: "Tepozontitla",
-            refe: "Lorem impus dolot itsum mit",
-            url: "https://www.google.com/maps/d/edit?mid=1gvxNEba3M-w7QrqC6FqGbZdPjdKqIio&usp=sharing",
-            loc: {
-               latitude: 19.51133,
-               longitude: -98.53118
-            },
+            "info": [
+               {
+                  "idEstab": "estab1",
+                  "name": "Restaurante 2",
+                  "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed ex tincidunt, condimentum .",
+                  "comida": [
+                     {
+                        "ide": "rest5",
+                        "platillo": "Chinocuiles",
+                        "costo": "100 MXN"
+                     },
+                     {
+                        "ide": "rest1",
+                        "platillo": "Chinocuiles",
+                        "costo": "100 MXN"
+                     },
+                     {
+                        "ide": "rest2",
+                        "platillo": "Chinocuiles",
+                        "costo": "100 MXN"
+                     }
+                  ],
+                  "imagenes": [
+                     {
+                        "idima": "img7",
+                        "img": "https://resizer.otstatic.com/v2/photos/wide-huge/2/47967436.jpg"
+                     },
+                     {
+                        "idima": "img4",
+                        "img": "https://cdn.pixabay.com/photo/2021/03/16/10/04/street-6099209_1280.jpg"
+                     },
+                     {
+                        "idima": "img6",
+                        "img": "https://cdn.pixabay.com/photo/2016/03/05/19/02/salmon-1238248_1280.jpg"
+                     },
+                     {
+                        "idima": "img5",
+                        "img": "https://cdn.pixabay.com/photo/2016/11/18/15/53/breakfast-1835478_1280.jpg"
+                     }
+                  ]
+               }
+            ]
          }
       ]
-   }, {
-      idCat: 'idCat5',
-      category: 'Pulqueria',
-      can: {},
-      data: [
+   },
+   {
+      "idCat": "idCat2",
+      "category": "Avistamientos",
+      "data": [
          {
-            id: 6,
-            name: "Mil Amores",
-            refe: "Lorem impus dolot itsum mit",
-            url: "https://www.google.com/maps/d/edit?mid=1jmE7sOZRebHS2i4cBQ81aCDZfUA9IhM&usp=sharing",
-            loc: {
-               latitude: 19.49497,
-               longitude: -98.53534
+            "id": "estab3",
+            "name": "Avistamiento 1",
+            "descripcion": "descripcion corta",
+            "url": "https://www.google.com/maps/d/u/0/edit?mid=1ZHaEpEjoJFMFWQZE167uD0x-aj1Zkl4&usp=sharing",
+            "loc": {
+               "latitude": 19.493037,
+               "longitude": -98.535733
             },
+            "info": [
+               {
+                  "idEstab": "estab1",
+                  "name": "Avistamiento 1",
+                  "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed ex tincidunt, condimentum .",
+                  "paquetes": [
+                     {
+                        "ide": "rest1",
+                        "nombPaquete": "Bronce",
+                        "costo": "100 MXN",
+                        "contiene": [
+                           "cosa 1",
+                           "cosa 2",
+                           "cosa 3"
+                        ]
+                     },
+                     {
+                        "ide": "rest2",
+                        "nombPaquete": "Plata",
+                        "costo": "100 MXN",
+                        "contiene": [
+                           "cosa 1",
+                           "cosa 2",
+                           "cosa 3"
+                        ]
+                     },
+                     {
+                        "ide": "rest5",
+                        "nombPaquete": "ORO",
+                        "costo": "100 MXN",
+                        "contiene": [
+                           "cosa 1",
+                           "cosa 2",
+                           "cosa 3"
+                        ]
+                     }
+                  ],
+                  "imagenes": [
+                     {
+                        "idima": "img5",
+                        "img": "https://cdn.pixabay.com/photo/2016/11/18/15/53/breakfast-1835478_1280.jpg"
+                     },
+                     {
+                        "idima": "img6",
+                        "img": "https://cdn.pixabay.com/photo/2016/03/05/19/02/salmon-1238248_1280.jpg"
+                     },
+                     {
+                        "idima": "img4",
+                        "img": "https://cdn.pixabay.com/photo/2021/03/16/10/04/street-6099209_1280.jpg"
+                     },
+                     {
+                        "idima": "img7",
+                        "img": "https://resizer.otstatic.com/v2/photos/wide-huge/2/47967436.jpg"
+                     }
+                  ]
+               }
+            ]
          },
          {
-            id: 7,
-            name: "Mama Panchita",
-            refe: "Lorem impus dolot itsum mit",
-            url: "https://www.google.com/maps/d/edit?mid=11tJFOxZbeMO0PlRmSRz6XaVi0ybA8YE&usp=sharing",
-            loc: {
-               latitude: 19.49361,
-               longitude: -98.53506
+            "id": "estab3",
+            "name": "Avistamiento 2",
+            "descripcion": "descripcion corta",
+            "url": "https://www.google.com/maps/d/u/0/edit?mid=1ZHaEpEjoJFMFWQZE167uD0x-aj1Zkl4&usp=sharing",
+            "loc": {
+               "latitude": 19.493037,
+               "longitude": -98.535733
             },
-         },
+            "info": [
+               {
+                  "idEstab": "estab1",
+                  "name": "Avistamiento 2",
+                  "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed ex tincidunt, condimentum .",
+                  "paquetes": [
+                     {
+                        "ide": "rest1",
+                        "nombPaquete": "Bronce",
+                        "costo": "100 MXN",
+                        "contiene": [
+                           "cosa 1",
+                           "cosa 2",
+                           "cosa 3"
+                        ]
+                     },
+                     {
+                        "ide": "rest2",
+                        "nombPaquete": "Plata",
+                        "costo": "100 MXN",
+                        "contiene": [
+                           "cosa 1",
+                           "cosa 2",
+                           "cosa 3"
+                        ]
+                     },
+                     {
+                        "ide": "rest5",
+                        "nombPaquete": "ORO",
+                        "costo": "100 MXN",
+                        "contiene": [
+                           "cosa 1",
+                           "cosa 2",
+                           "cosa 3"
+                        ]
+                     }
+                  ],
+                  "imagenes": [
+                     {
+                        "idima": "img5",
+                        "img": "https://cdn.pixabay.com/photo/2016/11/18/15/53/breakfast-1835478_1280.jpg"
+                     },
+                     {
+                        "idima": "img6",
+                        "img": "https://cdn.pixabay.com/photo/2016/03/05/19/02/salmon-1238248_1280.jpg"
+                     },
+                     {
+                        "idima": "img4",
+                        "img": "https://cdn.pixabay.com/photo/2021/03/16/10/04/street-6099209_1280.jpg"
+                     },
+                     {
+                        "idima": "img7",
+                        "img": "https://resizer.otstatic.com/v2/photos/wide-huge/2/47967436.jpg"
+                     }
+                  ]
+               }
+            ]
+         }
       ]
    }
 ]
