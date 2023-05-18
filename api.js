@@ -111,7 +111,7 @@
             "info": [
                {
                   "idEstab": "estab1",
-                  "name": "Hotel",
+                  "name": "Restaurante 1",
                   "desing": 2,
                   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed ex tincidunt, condimentum .",
                   "details": [
