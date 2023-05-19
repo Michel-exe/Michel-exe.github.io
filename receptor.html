@@ -1,0 +1,28 @@
+<body>
+   <script>
+      const local = () => {
+         localStorage.setItem("firstOpen", 1);
+         localStorage.setItem("name", "Michel");
+      }
+      window.addEventListener("DOMContentLoaded", () => {
+         if (window.location.search == "?r=t") {
+            localStorage.removeItem("firstOpen");
+            localStorage.removeItem("name");
+            return;
+         }
+         if (localStorage.getItem("firstOpen") == null) {
+            local()
+         } else {
+            localStorage.setItem("firstOpen", 0);
+         }
+         const Api = `
+        [{
+            "name": "${localStorage.getItem("name")}",
+            "firstOpen": "${localStorage.getItem("firstOpen")}",
+        }]
+        `
+         document.write(Api)
+      })
+   </script>
+</body>
+</html>
