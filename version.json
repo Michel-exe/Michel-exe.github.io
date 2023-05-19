@@ -3,7 +3,7 @@
         "version": "1.0.1",
         "name": "Prisas",
         "description": "Primera version para google Play",
-        "importance": 1,
+        "importance": 2,
         "link": "https://www.google.com",
         "alert": {
             "tit": "Se agrego la primer version de google Play",
