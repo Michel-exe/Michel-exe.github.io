@@ -8,6 +8,7 @@
             "name": "Hotel 1",
             "descripcion": "descripcion corta",
             "url": "https://www.google.com/maps/d/edit?mid=1eoFvGy2vKli9VBCkfm-c_AfmOlGObGo&usp=sharing",
+            "maps": "https://goo.gl/maps/FPRWrUXh4dRd6oxJ8",
             "loc": {
                "latitude": 19.493037,
                "longitude": -98.535733
@@ -104,6 +105,7 @@
             "name": "Restaurante 1",
             "descripcion": "descripcion corta",
             "url": "https://www.google.com/maps/d/edit?mid=1eoFvGy2vKli9VBCkfm-c_AfmOlGObGo&usp=sharing",
+            "maps": "https://goo.gl/maps/FPRWrUXh4dRd6oxJ8",
             "loc": {
                "latitude": 19.493037,
                "longitude": -98.535733
@@ -190,6 +192,7 @@
             "name": "Avistamiento 1",
             "descripcion": "descripcion corta",
             "url": "https://www.google.com/maps/d/edit?mid=1eoFvGy2vKli9VBCkfm-c_AfmOlGObGo&usp=sharing",
+            "maps": "https://goo.gl/maps/FPRWrUXh4dRd6oxJ8",
             "loc": {
                "latitude": 19.493037,
                "longitude": -98.535733
