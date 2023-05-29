@@ -6,8 +6,8 @@
         "importance": 1,
         "link": "https://www.google.com",
         "alert": {
-            "tit": "Se agrego la primer version de google Play",
-            "desc": "Desea descargar la nueva version, es la primer version, esperemos que no tenga errores 😞"
+            "tit": "Primera version para Google Play",
+            "desc": "Esta es la primer version sigue en Beta ❤️"
         }
     }
 ]
