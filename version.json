@@ -1,9 +1,9 @@
 [
     {
-        "version": "1.0.2",
+        "version": "1.0.1",
         "name": "Prisas",
         "description": "Primera version para google Play",
-        "importance": 1,
+        "importance": 0,
         "link": "https://www.google.com",
         "alert": {
             "tit": "Primera version para Google Play",
