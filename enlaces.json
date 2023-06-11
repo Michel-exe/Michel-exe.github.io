@@ -1,5 +1,5 @@
 {
-    "api": "https://xantheapp.com/api/api.js",
+    "api": "https://xantheapp.com/api/",
     "categorias": "https://xantheapp.com/api/categorias/",
     "version": "https://xantheapp.com/api/version.json",
     "sition": "https://xantheapp.com/api/"
