@@ -3,5 +3,5 @@
     "categorias": "https://xantheapp.com/api/categorias/",
     "version": "https://xantheapp.com/api/version.json",
     "sition": "https://xantheapp.com/api/",
-    "recomendados": "https://xantheapp.com/api/recomendados/",
+    "recomendados": "https://xantheapp.com/api/recomendados/"
 }
